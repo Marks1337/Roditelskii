@@ -1,0 +1,64 @@
+.text {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.containerText {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#margin {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.textSpan {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.headingTasks {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.boxTasks {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 35.5px;
+}
+
+.btn {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #081414;
+  cursor: pointer;
+  padding: 16px 28px;
+  background: #27ae60;
+  border-radius: 10px;
+}
+
+.containerBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
