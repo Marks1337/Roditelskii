@@ -10,7 +10,7 @@ const Form = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = { name, question, email, phone_number };
-    fetch("http://45.130.9.238:6033/form", {
+    fetch("http://45.130.9.3:6033/form", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
