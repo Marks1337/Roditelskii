@@ -1,0 +1,35 @@
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.link {
+  color: #27AE60;
+}
+
